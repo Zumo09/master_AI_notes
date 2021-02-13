@@ -1,0 +1,9 @@
+﻿Type,Description,Operators,Transformation,Descriptive statistics,Examples
+"Categorical: Nominal
+(Discrete)","set of lables, distinguishable","=, ≠",any one-to-one correspondance,"mode, entropy, contingency, correlation, X^2 test ","zip code, eye color, sex"
+Categorical: Ordinal (Discrete),values with a total ordering,"<, >, ≤, ≥","any order preserving transformation, 
+new ← f(old) 
+with f monotonic function","median, percentiles, rank correlation","hardness of materials, non-numerical quality evaluation (bad, fair, good, excellent)"
+Numerical: Interval (Continuous),the difference is meaningful,"+, -","linear functions, 
+new ← a + b*old","average, standard deviation, Pearson's correlation, F and t test","calendar dates, temperature in Celsius or Fahrenheit"
+Numerical: Ratio (Continuous),Have an univocal definition of 0,all the mathematic operations on numbers,any mathematical function,"geometric mean, harmonic mean, percentage variation","Kelvin temperatures, masses, length, counts"
